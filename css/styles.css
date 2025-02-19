@@ -502,8 +502,8 @@ body {
     font-size: 0.9em;
     transform: rotateY(180deg);
     padding: 25px;
-    right: -10px;
-    text-align: center;
+    right: -23px;
+    text-align: start;
     border-radius: 15px;
     box-shadow: inset 0 0 15px rgba(255, 255, 255, 0.7);
 }
@@ -515,7 +515,6 @@ body {
 
 /* Game Rules */
 .card-back ul {
-    padding: 0;
 }
 
 .card-back ul li {
