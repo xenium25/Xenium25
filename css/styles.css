@@ -778,12 +778,31 @@ body {
     position: relative;
     overflow: hidden;
 }
+.right button {
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 12px 25px;
+    border: none;
+    outline: none;
+    background: linear-gradient(90deg, #ff00ff, #00ffff);
+    color: #fff;
+    cursor: pointer;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(255, 0, 255, 0.6), 0 0 25px rgba(0, 255, 255, 0.6);
+    transition: all 0.3s ease-in-out;
+    position: relative;
+    overflow: hidden;
+}
 
 .register .right button:hover {
     transform: scale(1.1);
     box-shadow: 0 0 25px rgba(255, 0, 255, 0.8), 0 0 35px rgba(0, 255, 255, 0.8);
 }
-
+.right button:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 25px rgba(255, 0, 255, 0.8), 0 0 35px rgba(0, 255, 255, 0.8);
+}
 @media (max-width: 768px) {
     .register {
         flex-direction: column;
@@ -792,6 +811,9 @@ body {
     }
 
     .register .right {
+        margin-top: 20px;
+    }
+    .right {
         margin-top: 20px;
     }
 }
