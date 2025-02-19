@@ -824,7 +824,7 @@ body {
     background: url('../img/ps5.png') no-repeat center center/cover;
     display: flex;
     align-items: center;
-    justify-content: stat;
+    justify-content: center;
     text-align: center;
     margin-top: 80px;
 }
@@ -843,11 +843,8 @@ body {
     position: absolute;
     z-index: 1;
     background: rgba(255, 255, 255, 0.1);
-    padding: 0px 105px;
+    padding: 20px 50px;
     border-radius: 20px;
-    top: 300px;
-    left: 79px;
-    margin: 0 0;
     backdrop-filter: blur(10px);
     box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
     border: 2px solid rgba(255, 255, 255, 0.3);
@@ -874,6 +871,39 @@ body {
     color: #fff;
     font-size: 1.8rem;
     text-shadow: 0 0 15px #fff;
+}
+
+@media (max-width: 768px) {
+    .ps {
+        height: 80vh; /* Adjust height for smaller screens */
+    }
+    .ps-box {
+        padding: 20px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .ps-box h2 {
+        font-size: 1.8rem;
+    }
+    .ps-box p {
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .ps {
+        height: 70vh; /* Adjust height for smaller screens */
+    }
+    .ps-box {
+        padding: 15px;
+    }
+    .ps-box h2 {
+        font-size: 1.5rem;
+    }
+    .ps-box p {
+        font-size: 1rem;
+    }
 }
 
 html {
