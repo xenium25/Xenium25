@@ -888,6 +888,8 @@ body {
     width: 80%;
     max-width: 600px;
     margin: 20px;
+    top: 60px;
+    right: 80px;
 }
 
 .ps-box h2 {
@@ -952,6 +954,7 @@ body {
         height: 70vh; /* Adjust height for smaller screens */
     }
     .ps-box {
+        left:10px;
         padding: 15px;
     }
     .ps-box h2 {
