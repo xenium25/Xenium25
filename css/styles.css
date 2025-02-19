@@ -54,7 +54,8 @@ body {
 .header-nav {
     flex: 1;
     display: flex;
-    justify-content: center;
+    
+    justify-content: space-between;
 }
 
 .header-nav ul {
