@@ -952,6 +952,7 @@ body {
         padding: 15px;
     }
     .ps-box h2 {
+        text-align: start;
         font-size: 1.5rem;
     }
     .ps-box p {
