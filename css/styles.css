@@ -382,7 +382,8 @@ body {
     padding: 5px;
     font-size: 18px;
     color: #ff00ff;
-}/* Cards */
+}/
+* Cards */
 #cards {
     color: #fff;
     padding: 50px;
@@ -500,7 +501,7 @@ body {
     backdrop-filter: blur(10px);
     font-size: 0.9em;
     transform: rotateY(180deg);
-    padding: 0px;
+    padding: 10px;
     text-align: left;
     border-radius: 15px;
     box-shadow: inset 0 0 15px rgba(255, 255, 255, 0.7);
