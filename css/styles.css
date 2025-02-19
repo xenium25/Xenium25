@@ -30,7 +30,7 @@ body {
     font-family: 'Poppins', sans-serif;
     width: 100%;
     box-sizing: border-box;
-    overflow-x: hidden; /* Prevent horizontal scroll */
+    overflow-x: hidden;
 }
 
 /* Header Glow Effect on Scroll */
@@ -40,8 +40,8 @@ body {
 
 /* Logo */
 .logo {
-    width: 80px;
-    height: 40px;
+    width: 100px;
+    height: 60px;
     overflow: hidden;
 }
 
@@ -55,15 +55,15 @@ body {
     flex: 1;
     display: flex;
     justify-content: center;
+    margin: 0 20px;
 }
 
 .header-nav ul {
     list-style: none;
     display: flex;
-    gap: 15px;
+    gap: 20px;
     margin: 0;
     padding: 0;
-    flex-wrap: nowrap; /* Ensure items stay in a single line */
 }
 
 .header-nav ul li {
@@ -73,7 +73,7 @@ body {
 .header-nav ul li a {
     text-decoration: none;
     color: #00ffff;
-    font-size: 16px;
+    font-size: 18px;
     transition: 0.3s;
 }
 
@@ -115,18 +115,14 @@ body {
         padding: 10px 15px;
     }
     .logo {
-        width: 70px;
-        height: 35px;
+        width: 80px;
+        height: 50px;
     }
     .header-nav ul {
-        display: flex;
-    justify-content: space-between;
-    align-items: center;
-        gap: 10px;
+        gap: 15px;
     }
     .header-nav ul li a {
-        font-size: 14px;
-        display:inline-block
+        font-size: 16px;
     }
     .header .right button {
         padding: 8px 16px;
@@ -138,6 +134,7 @@ body {
     .header {
         flex-direction: column;
         align-items: flex-start;
+        padding: 10px 10px;
     }
     .header-nav {
         justify-content: flex-start;
@@ -145,8 +142,9 @@ body {
         margin-top: 10px;
     }
     .header-nav ul {
-        flex-direction: column;
-        gap: 5px;
+        flex-direction: row;
+        gap: 10px;
+        overflow-x: auto;
     }
     .header .right {
         width: 100%;
