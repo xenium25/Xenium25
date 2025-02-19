@@ -30,7 +30,7 @@ body {
     font-family: 'Poppins', sans-serif;
     width: 100%;
     box-sizing: border-box;
-    overflow: hidden;
+    overflow-x: hidden; /* Prevent horizontal scroll */
 }
 
 /* Header Glow Effect on Scroll */
@@ -54,8 +54,7 @@ body {
 .header-nav {
     flex: 1;
     display: flex;
-    
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .header-nav ul {
@@ -64,6 +63,11 @@ body {
     gap: 15px;
     margin: 0;
     padding: 0;
+    flex-wrap: nowrap; /* Ensure items stay in a single line */
+}
+
+.header-nav ul li {
+    display: flex;
 }
 
 .header-nav ul li a {
