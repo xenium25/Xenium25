@@ -22,12 +22,15 @@ body {
     justify-content: space-between;
     align-items: center;
     background: #000;
-    padding: 10px 50px;
+    padding: 10px 20px;
     position: sticky;
     top: 0;
     z-index: 1000;
     transition: box-shadow 0.3s ease-in-out;
     font-family: 'Poppins', sans-serif;
+    width: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
 }
 
 /* Header Glow Effect on Scroll */
@@ -37,8 +40,8 @@ body {
 
 /* Logo */
 .logo {
-    width: 100px;
-    height: 60px;
+    width: 80px;
+    height: 40px;
     overflow: hidden;
 }
 
@@ -57,7 +60,7 @@ body {
 .header-nav ul {
     list-style: none;
     display: flex;
-    gap: 20px;
+    gap: 15px;
     margin: 0;
     padding: 0;
 }
@@ -65,7 +68,7 @@ body {
 .header-nav ul li a {
     text-decoration: none;
     color: #00ffff;
-    font-size: 18px;
+    font-size: 16px;
     transition: 0.3s;
 }
 
@@ -80,10 +83,10 @@ body {
 }
 
 .header .right button {
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-weight: bold;
     text-transform: uppercase;
-    padding: 12px 25px;
+    padding: 10px 20px;
     border: none;
     outline: none;
     background: linear-gradient(90deg, #ff00ff, #00ffff);
@@ -104,14 +107,21 @@ body {
 /* Responsive Adjustments */
 @media (max-width: 768px) {
     .header {
-        padding: 10px 20px;
+        padding: 10px 15px;
+    }
+    .logo {
+        width: 70px;
+        height: 35px;
     }
     .header-nav ul {
-        gap: 15px;
+        gap: 10px;
+    }
+    .header-nav ul li a {
+        font-size: 14px;
     }
     .header .right button {
-        padding: 10px 20px;
-        font-size: 1rem;
+        padding: 8px 16px;
+        font-size: 0.9rem;
     }
 }
 
@@ -127,7 +137,7 @@ body {
     }
     .header-nav ul {
         flex-direction: column;
-        gap: 10px;
+        gap: 5px;
     }
     .header .right {
         width: 100%;
@@ -136,6 +146,8 @@ body {
     }
     .header .right button {
         width: 100%;
+        padding: 8px 10px;
+        font-size: 0.8rem;
     }
 }
 
