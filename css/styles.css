@@ -943,6 +943,7 @@ body {
         font-size: 1.5rem;
     }
     .ps-box p {
+        margin-left: 130px;
         font-size: 0.9rem;
     }
     .ps-box p span {
