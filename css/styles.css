@@ -119,10 +119,14 @@ body {
         height: 35px;
     }
     .header-nav ul {
+        display: flex;
+    justify-content: space-between;
+    align-items: center;
         gap: 10px;
     }
     .header-nav ul li a {
         font-size: 14px;
+        display:inline-block
     }
     .header .right button {
         padding: 8px 16px;
