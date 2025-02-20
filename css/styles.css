@@ -345,6 +345,7 @@ body {
     }
     .welcome-container {
         padding: 20px;
+        width:300px;
     }
     .welcome-text h1{
         font-size: 2em;
@@ -759,7 +760,8 @@ body {
 
 @media (max-width: 480px) {
     .about-container {
-        padding: 30px 15px;
+        padding: 40px 20px;
+        width: 300px;
     }
 
     .about-text h1 {
