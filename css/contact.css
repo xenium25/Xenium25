@@ -443,7 +443,7 @@ button {
 @media (max-width: 480px) {
     .header {
         padding: 2px 0px;
-        width: 406px;
+        width: 410px;
         flex-direction: row;
         justify-content: space-between;
     }
