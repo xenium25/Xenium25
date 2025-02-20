@@ -132,7 +132,7 @@ body {
 @media (max-width: 480px) {
     .header {
         flex-direction: row;
-        align-items: flex-start;
+        justify-content:space-between;
         padding: 10px 10px;
     }
     .header-nav {
