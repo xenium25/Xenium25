@@ -478,12 +478,12 @@ button {
         font-size: 16px;
     }
     .contact-card {
-        background: #232121;
+        background: #191919;
         border-radius: 10px;
         padding: 15px;
+        height:180px;
         text-align: center;
-        height: 180px;
-        transition: 0.3sease -in-out;
+        transition: 0.3sease-in-out;
         box-shadow: 0px 0px 15px #00ffff;
     }
     .contact-card p {
