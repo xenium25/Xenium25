@@ -442,7 +442,8 @@ button {
 /* Ultra Small Screens (Below 480px) */
 @media (max-width: 480px) {
     .header {
-        padding: 10px;
+        padding: 2px 0px;
+        width: 406px;
         flex-direction: row;
         justify-content: space-between;
     }
