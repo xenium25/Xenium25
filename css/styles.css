@@ -140,7 +140,7 @@ body {
         width: 100%;
         margin-top: 20px;
     }
-    .header-nav ul {
+        .header-nav ul {
         flex-direction: row;
         gap: 30px;
         overflow-x: auto;
