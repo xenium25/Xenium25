@@ -142,7 +142,7 @@ body {
     }
     .header-nav ul {
         flex-direction: row;
-        gap: 10px;
+        gap: 30px;
         overflow-x: auto;
     }
     .header-nav ul li a{
@@ -760,6 +760,7 @@ body {
 
 @media (max-width: 480px) {
     .about-container {
+        box-shadow:10px;
         padding: 40px 20px;
         width: 300px;
     }
