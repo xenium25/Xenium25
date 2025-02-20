@@ -495,5 +495,11 @@ button {
     font-size: 0.8em;
     margin-bottom: 10px;
     }
+    .contact-card .icon {
+    font-size: 2.2em;
+    color: #00ffff;
+    display: block;
+    margin-bottom: 10px;
+}
 }
 
