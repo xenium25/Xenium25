@@ -441,9 +441,9 @@ button {
 
 /* Ultra Small Screens (Below 480px) */
 @media (max-width: 480px) {
-    .header {
+        .header {
         padding: 2px 0px;
-        width: 410px;
+        width: 100%;
         flex-direction: row;
         justify-content: space-between;
     }
@@ -459,7 +459,7 @@ button {
 
     .footer {
         padding: 10px;
-        width: 409px;
+        width: 100%;
     }
 
     .footer-left a{
@@ -476,6 +476,14 @@ button {
 
     .social-icons a {
         font-size: 16px;
+    }
+    .contact-card p {
+    font-size: 0.5em;
+    color: #ccc;
+    }
+    .contact-card h3 {
+    font-size: 0.8em;
+    margin-bottom: 10px;
     }
 }
 
