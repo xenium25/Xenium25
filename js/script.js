@@ -82,11 +82,12 @@ function createSymbol() {
 setInterval(createSymbol, 300);
 
 function startFireworks() {
-    const interval = setInterval(() => {
-     createExplosion(`${Math.random() * 100}%`, `${Math.random() * 100}%`);
-    }, 500);
-    setTimeout(() => clearInterval(interval), 8000); // Stop creating fireworks after 8 seconds
-  }
+            const interval = setInterval(() => {
+                createExplosion(`${Math.random() * 100}vw`, `${Math.random() * 100}vh`);
+            }, 500);
 
-  window.onload = startFireworks;
+            setTimeout(() => clearInterval(interval), 8000); // Stop creating fireworks after 8 seconds
+        }
+
+        window.onload = startFireworks;
   
