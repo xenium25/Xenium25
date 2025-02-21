@@ -89,5 +89,5 @@ function startFireworks() {
             setTimeout(() => clearInterval(interval), 8000); // Stop creating fireworks after 8 seconds
         }
 
-        window.onload = startFireworks;
+        window.onload = startFireworks();
   
