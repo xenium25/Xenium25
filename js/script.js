@@ -81,4 +81,12 @@ function createSymbol() {
 
 setInterval(createSymbol, 300);
 
-// Toggle effect for card flip
+function startFireworks() {
+    const interval = setInterval(() => {
+      createExplosion(Math.random() * 100 + '%', Math.random() * 100 + '%');
+    }, 500);
+    setTimeout(() => clearInterval(interval), 8000); // Stop creating fireworks after 8 seconds
+  }
+
+  window.onload = startFireworks;
+  
